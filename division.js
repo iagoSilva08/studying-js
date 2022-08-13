@@ -1,6 +1,6 @@
-function plus (numberX, numberY){
+function division (numberX, numberY){
   let result = (numberX / numberY)
   console.log(result)
   
 }
-plus(70,80)
+division(70,80)
