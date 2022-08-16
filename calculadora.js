@@ -1,18 +1,18 @@
-function calculadora(valueA, valueB, operation) {
-  if(opereration === '**'){
-    return  valueA ** valueB
+function calculadora(numberA, numberB) {
+  if('**'){
+    return  numberA ** numberB
   }
   else if(operation === '-'){
-    return valueA - valueB
+    return numberA - numberB
   }
   if (operation === '*'){
-    return  valueA * valueB
+    return  numberA * numberB
   }
   if (operation === '+'){
-    return valueA + valueB
+    return numberA + numberB
   }
   if (operation === '/'){
-    return / valueA // valueB
+    return numberA / numberB
   }
   const result = calculadora(2+2)
   console.log(result)
