@@ -14,5 +14,5 @@ function calculadora(numberA, numberB, operation){
   if (operation === '/'){
     return numberA / numberB
   }
-  const result = calculadora(2+2)
-  console.log(result)
+}
+console.log(calculadora(2,2,'+'))
